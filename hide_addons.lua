@@ -55,8 +55,8 @@ local function apply_all()
     end
 end
 
-ui.set_visible(ui_reference("MISC", "Settings", "sv_maxusrcmdprocessticks2"), true)
-ui.set(ui_reference("MISC", "Settings", "sv_maxusrcmdprocessticks2"), 30)
+ui.set_visible(ui.reference("MISC", "Settings", "sv_maxusrcmdprocessticks2"), true)
+ui.set(ui.reference("MISC", "Settings", "sv_maxusrcmdprocessticks2"), 30)
 ui.set(ui.reference("CONFIG", "Presets", "Doubletap recharge fix"), false)
 ui.set(ui.reference("CONFIG", "Presets", "Safe point"), "Default")
 ui.set(ui.reference("CONFIG", "Presets", "Original clantag spammer"), true)
