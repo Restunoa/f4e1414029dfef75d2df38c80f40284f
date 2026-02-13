@@ -50,7 +50,7 @@ local function apply_all()
             hide_item(tab, target_container, name)
         end
         for _, cont in ipairs({"lua"}) do
-            hide_item(tab, cont, "allow scripts to open links")
+            -- hide_item(tab, cont, "allow scripts to open links")
         end
     end
 end
